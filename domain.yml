@@ -1,0 +1,147 @@
+version: "2.0"
+
+intents:
+  - start
+  - answer_positive
+  - answer_negative
+  - answer_1
+  - answer_2
+  - answer_1_1
+  - answer_1_1_1
+  - answer_1_1_2
+  - answer_1_1_2_1
+  - answer_1_1_2_2
+  - answer_1_2
+  - answer_1_2_1
+  - answer_1_2_2
+  - answer_1_2_2_1
+  - answer_1_2_2_1_1
+  - answer_1_2_2_1_2
+  - answer_1_2_2_1_2_1
+  - answer_1_2_2_1_2_2
+  - answer_1_2_2_2
+  - answer_1_2_2_2_1
+  - answer_1_2_2_2_2
+  - answer_1_2_2_2_2_1
+  - answer_1_2_2_2_2_2
+
+responses:
+  utter_response_to_start:
+  - text: "Type of data?"
+    buttons:
+    - title: "Continuous"
+      payload: "Continuous"
+    - title: "Discrete, categorical"
+      payload: "Discrete, categorical"
+
+  utter_response_to_answer_1:
+  - text: "Type of question?"
+    buttons:
+    - title: "Relationships"
+      payload: "Relationships"
+    - title: "Differences"
+      payload: "Differences"
+
+  utter_response_to_answer_1_1:
+  - text: "Do you have a true independent variable?"
+    buttons:
+    - title: "Yes"
+      payload: "Yes, it is"
+    - title: "No"
+      payload: "No, it is not"
+
+  utter_response_to_answer_1_1_1:
+  - text: "Regression Analysis"
+
+  utter_response_to_answer_1_1_2:
+  - text: "Correlation analysis?"
+    buttons:
+    - title: "Parametric"
+      payload: "Parametric"
+    - title: "Non-parametric"
+      payload: "Non-parametric"
+
+  utter_response_to_answer_1_1_2_1:
+  - text: "Pearson's R"
+
+  utter_response_to_answer_1_1_2_2:
+  - text: "Spearman's Rank Correlation"
+
+  utter_response_to_answer_1_2:
+  - text: "Differences between what?"
+    buttons:
+    - title: "Tests for equal variances"
+      payload: "Tests for equal variances"
+    - title: "Means"
+      payload: "Means"
+
+  utter_response_to_answer_1_2_1:
+  - text: "Fmax Test, Brown & Smythe's Test, Bartlett's Test"
+
+  utter_response_to_answer_1_2_2:
+  - text: "How many treatment groups?"
+    buttons:
+    - title: "Two groups"
+      payload: "Two groups"
+    - title: "More than two groups"
+      payload: "More than two groups"
+
+  utter_response_to_answer_1_2_2_1:
+  - text: "Parametric assumptions satisfied?"
+    buttons:
+    - title: "Yes"
+      payload: "Yes, it is"
+    - title: "No"
+      payload: "No, it is not"
+
+  utter_response_to_answer_1_2_2_1_1:
+  - text: "Student's Unpaired T-Test / Paired T-Test"
+
+  utter_response_to_answer_1_2_2_1_2:
+  - text: "Data transforms worked?"
+    buttons:
+    - title: "Yes"
+      payload: "Yes, it is"
+    - title: "No"
+      payload: "No, it is not"
+
+  utter_response_to_answer_1_2_2_1_2_1:
+  - text: "Student's Unpaired T-Test & Paired T-Test"
+
+  utter_response_to_answer_1_2_2_1_2_2:
+  - text: "Mann-Whitney U or Wilcoxon Rank Sums Test"
+
+  utter_response_to_answer_1_2_2_2:
+  - text: "Parametric assumption satisfied?"
+    buttons:
+    - title: "Yes"
+      payload: "Yes, it is"
+    - title: "No"
+      payload: "No, it is not"
+
+  utter_response_to_answer_1_2_2_2_1:
+  - text: "ANOVA Test\nIf significant, do a post hoc test, e.g. Tukey's or Bonferroni's Test"
+
+  utter_response_to_answer_1_2_2_2_2:
+  - text: "Data transform worked?"
+    buttons:
+    - title: "Yes"
+      payload: "Yes, it is"
+    - title: "No"
+      payload: "No, it is not"
+
+  utter_response_to_answer_1_2_2_2_2_1:
+  - text: "ANOVA-Test\nIf significant, do a post hoc test, e.g. Tukey's or Bonferroni's Test"
+
+  utter_response_to_answer_1_2_2_2_2_2:
+  - text: "Kruskal-Wallis Test\nIf significant, do a Dunn's Test"
+
+  utter_response_to_answer_2:
+  - text: "Chi-square tests one and two sample"
+
+  utter_goodbye:
+  - text: "Goodbye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

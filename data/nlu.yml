@@ -1,0 +1,143 @@
+version: "2.0"
+
+nlu:
+- intent: start
+  examples: |
+    - start
+    - starts
+
+- intent: answer_positive
+  examples: |
+    - affirmative
+    - positive
+    - yes, it is
+    - yes
+    - y
+
+- intent: answer_negative
+  examples: |
+    - contradictive
+    - negative
+    - no, it is not
+    - no
+    - n
+
+- intent: answer_1
+  examples: |
+    - continue
+    - continuos
+    - continuous
+
+- intent: answer_2
+  examples: |
+    - discrete
+    - categorical
+    - discrete categorical
+    - discrete,categorical
+    - discrete, categorical
+    - discrete and categorical
+    - discrete or categorical
+
+- intent: answer_1_1
+  examples: |
+    - relationship
+    - relationships
+
+- intent: answer_1_1_1
+  examples: |
+    - yes
+    - y
+
+- intent: answer_1_1_2
+  examples: |
+    - no
+    - n
+
+- intent: answer_1_1_2_1
+  examples: |
+    - parameter
+    - parametric
+
+- intent: answer_1_1_2_2
+  examples: |
+    - non parametric
+    - non-parametric
+    - nonparametric
+
+- intent: answer_1_2
+  examples: |
+    - difference
+    - differences
+
+- intent: answer_1_2_1
+  examples: |
+    - tests for equal variances
+    - test for equal variances
+    - tests for equal variance
+    - test for equal variance
+
+- intent: answer_1_2_2
+  examples: |
+    - mean
+    - means
+
+- intent: answer_1_2_2_1
+  examples: |
+    - two
+    - two group
+    - two groups
+    - 2
+    - 2 group
+    - 2 groups
+
+- intent: answer_1_2_2_1_1
+  examples: |
+    - yes
+    - y
+
+- intent: answer_1_2_2_1_2
+  examples: |
+    - no
+    - n
+
+- intent: answer_1_2_2_1_2_1
+  examples: |
+    - yes
+    - y
+
+- intent: answer_1_2_2_1_2_2
+  examples: |
+    - no
+    - n
+
+- intent: answer_1_2_2_2
+  examples: |
+    - >2
+    - >2 group
+    - >2 groups
+    - > 2
+    - > 2 group
+    - > 2 groups
+    - more than two
+    - more than two group
+    - more than two groups
+
+- intent: answer_1_2_2_2_1
+  examples: |
+    - yes
+    - y
+
+- intent: answer_1_2_2_2_2
+  examples: |
+    - no
+    - n
+
+- intent: answer_1_2_2_2_2_1
+  examples: |
+    - yes
+    - y
+
+- intent: answer_1_2_2_2_2_2
+  examples: |
+    - no
+    - n

@@ -1,0 +1,167 @@
+version: "2.0"
+
+stories:
+
+- story: path_regression
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_1
+  - action: utter_response_to_answer_1_1
+  - intent: answer_positive #answer_1_1_1
+  - action: utter_response_to_answer_1_1_1
+  - action: utter_goodbye
+
+- story: path_pearson
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_1
+  - action: utter_response_to_answer_1_1
+  - intent: answer_negative #answer_1_1_2
+  - action: utter_response_to_answer_1_1_2
+  - intent: answer_1_1_2_1
+  - action: utter_response_to_answer_1_1_2_1
+  - action: utter_goodbye
+
+- story: path_spearman
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_1
+  - action: utter_response_to_answer_1_1
+  - intent: answer_negative #answer_1_1_2
+  - action: utter_response_to_answer_1_1_2
+  - intent: answer_1_1_2_2
+  - action: utter_response_to_answer_1_1_2_2
+  - action: utter_goodbye
+
+- story: path_fmax
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_1
+  - action: utter_response_to_answer_1_2_1
+  - action: utter_goodbye
+
+- story: path_student_1
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_2
+  - action: utter_response_to_answer_1_2_2
+  - intent: answer_1_2_2_1
+  - action: utter_response_to_answer_1_2_2_1
+  - intent: answer_positive #answer_1_2_2_1_1
+  - action: utter_response_to_answer_1_2_2_1_1
+  - action: utter_goodbye
+
+- story: path_student_2
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_2
+  - action: utter_response_to_answer_1_2_2
+  - intent: answer_1_2_2_1
+  - action: utter_response_to_answer_1_2_2_1
+  - intent: answer_negative #answer_1_2_2_1_2
+  - action: utter_response_to_answer_1_2_2_1_2
+  - intent: answer_positive #answer_1_2_2_1_2_1
+  - action: utter_response_to_answer_1_2_2_1_2_1
+  - action: utter_goodbye
+
+- story: path_mann
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_2
+  - action: utter_response_to_answer_1_2_2
+  - intent: answer_1_2_2_1
+  - action: utter_response_to_answer_1_2_2_1
+  - intent: answer_negative #answer_1_2_2_1_2
+  - action: utter_response_to_answer_1_2_2_1_2
+  - intent: answer_negative #answer_1_2_2_1_2_2
+  - action: utter_response_to_answer_1_2_2_1_2_2
+  - action: utter_goodbye
+
+- story: path_anova_1
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_2
+  - action: utter_response_to_answer_1_2_2
+  - intent: answer_1_2_2_2
+  - action: utter_response_to_answer_1_2_2_2
+  - intent: answer_positive #answer_1_2_2_2_1
+  - action: utter_response_to_answer_1_2_2_2_1
+  - action: utter_goodbye
+
+- story: path_anova_2
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_2
+  - action: utter_response_to_answer_1_2_2
+  - intent: answer_1_2_2_2
+  - action: utter_response_to_answer_1_2_2_2
+  - intent: answer_negative #answer_1_2_2_2_2
+  - action: utter_response_to_answer_1_2_2_2_2
+  - intent: answer_positive #answer_1_2_2_2_2_1
+  - action: utter_response_to_answer_1_2_2_2_2_1
+  - action: utter_goodbye
+
+- story: path_kruskal
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_1
+  - action: utter_response_to_answer_1
+  - intent: answer_1_2
+  - action: utter_response_to_answer_1_2
+  - intent: answer_1_2_2
+  - action: utter_response_to_answer_1_2_2
+  - intent: answer_1_2_2_2
+  - action: utter_response_to_answer_1_2_2_2
+  - intent: answer_negative #answer_1_2_2_2_2
+  - action: utter_response_to_answer_1_2_2_2_2
+  - intent: answer_negative #answer_1_2_2_2_2_2
+  - action: utter_response_to_answer_1_2_2_2_2_2
+  - action: utter_goodbye
+
+- story: path_chisquare
+  steps:
+  - intent: start
+  - action: utter_response_to_start
+  - intent: answer_2
+  - action: utter_response_to_answer_2
+  - action: utter_goodbye
