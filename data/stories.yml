@@ -10,7 +10,7 @@ stories:
   - action: utter_response_to_answer_1
   - intent: answer_1_1
   - action: utter_response_to_answer_1_1
-  - intent: answer_positive #answer_1_1_1
+  - intent: answer_positive
   - action: utter_response_to_answer_1_1_1
   - action: utter_goodbye
 
@@ -22,7 +22,8 @@ stories:
   - action: utter_response_to_answer_1
   - intent: answer_1_1
   - action: utter_response_to_answer_1_1
-  - intent: answer_negative #answer_1_1_2
+  - intent: answer_negative
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_1_2
   - intent: answer_1_1_2_1
   - action: utter_response_to_answer_1_1_2_1
@@ -36,7 +37,8 @@ stories:
   - action: utter_response_to_answer_1
   - intent: answer_1_1
   - action: utter_response_to_answer_1_1
-  - intent: answer_negative #answer_1_1_2
+  - intent: answer_negative
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_1_2
   - intent: answer_1_1_2_2
   - action: utter_response_to_answer_1_1_2_2
@@ -63,10 +65,12 @@ stories:
   - intent: answer_1_2
   - action: utter_response_to_answer_1_2
   - intent: answer_1_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2
   - intent: answer_1_2_2_1
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_1
-  - intent: answer_positive #answer_1_2_2_1_1
+  - intent: answer_positive
   - action: utter_response_to_answer_1_2_2_1_1
   - action: utter_goodbye
 
@@ -79,12 +83,15 @@ stories:
   - intent: answer_1_2
   - action: utter_response_to_answer_1_2
   - intent: answer_1_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2
   - intent: answer_1_2_2_1
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_1
-  - intent: answer_negative #answer_1_2_2_1_2
+  - intent: answer_negative
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_1_2
-  - intent: answer_positive #answer_1_2_2_1_2_1
+  - intent: answer_positive
   - action: utter_response_to_answer_1_2_2_1_2_1
   - action: utter_goodbye
 
@@ -97,12 +104,15 @@ stories:
   - intent: answer_1_2
   - action: utter_response_to_answer_1_2
   - intent: answer_1_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2
   - intent: answer_1_2_2_1
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_1
-  - intent: answer_negative #answer_1_2_2_1_2
+  - intent: answer_negative
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_1_2
-  - intent: answer_negative #answer_1_2_2_1_2_2
+  - intent: answer_negative
   - action: utter_response_to_answer_1_2_2_1_2_2
   - action: utter_goodbye
 
@@ -115,10 +125,12 @@ stories:
   - intent: answer_1_2
   - action: utter_response_to_answer_1_2
   - intent: answer_1_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2
   - intent: answer_1_2_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_2
-  - intent: answer_positive #answer_1_2_2_2_1
+  - intent: answer_positive
   - action: utter_response_to_answer_1_2_2_2_1
   - action: utter_goodbye
 
@@ -131,12 +143,15 @@ stories:
   - intent: answer_1_2
   - action: utter_response_to_answer_1_2
   - intent: answer_1_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2
   - intent: answer_1_2_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_2
-  - intent: answer_negative #answer_1_2_2_2_2
+  - intent: answer_negative
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_2_2
-  - intent: answer_positive #answer_1_2_2_2_2_1
+  - intent: answer_positive
   - action: utter_response_to_answer_1_2_2_2_2_1
   - action: utter_goodbye
 
@@ -149,12 +164,15 @@ stories:
   - intent: answer_1_2
   - action: utter_response_to_answer_1_2
   - intent: answer_1_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2
   - intent: answer_1_2_2_2
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_2
-  - intent: answer_negative #answer_1_2_2_2_2
+  - intent: answer_negative
+  - action: utter_persuasive
   - action: utter_response_to_answer_1_2_2_2_2
-  - intent: answer_negative #answer_1_2_2_2_2_2
+  - intent: answer_negative
   - action: utter_response_to_answer_1_2_2_2_2_2
   - action: utter_goodbye
 

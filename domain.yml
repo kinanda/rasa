@@ -140,8 +140,21 @@ responses:
   - text: "Chi-square tests one and two sample"
 
   utter_goodbye:
-  - text: "Goodbye"
+  - text: "Good job!"
+  - text: "You've made it!"
+  - text: "Awesome!"
+  - text: "You did it!"
+
+  utter_persuasive:
+  - text: "Keep going"
+  - text: "Keep it up"
+  - text: "Keep exploring"
+  - text: "Keep up the great work"
+  - text: "Don't give up"
+  - text: "Almost there"
+  - text: "Impossible is for the unwilling"
+  - text: "It seems impossible until it's done"
 
 session_config:
-  session_expiration_time: 60
+  session_expiration_time: 600
   carry_over_slots_to_new_session: true
