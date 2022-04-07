@@ -24,6 +24,15 @@ intents:
   - answer_1_2_2_2_2
   - answer_1_2_2_2_2_1
   - answer_1_2_2_2_2_2
+  - begin
+  - answer_a
+  - answer_b
+  - answer_a_a
+  - answer_a_b
+  - answer_a_c
+  - answer_b_a
+  - answer_b_b
+  - answer_b_c
 
 responses:
   utter_response_to_start:
@@ -154,6 +163,52 @@ responses:
   - text: "Almost there"
   - text: "Impossible is for the unwilling"
   - text: "It seems impossible until it's done"
+
+  utter_response_to_begin:
+  - text: "Type of probability?"
+    buttons:
+    - title: "Probability method"
+      payload: "Probability method"
+    - title: "Non-probability method"
+      payload: "Non-probability method"
+
+  utter_response_to_answer_a:
+  - text: "Type of non-probability method?"
+    buttons:
+    - title: "Convenience method"
+      payload: "Convenience method"
+    - title: "Quota samples"
+      payload: "Quota samples"
+    - title: "Judgemental samples"
+      payload: "Judgemental samples"
+
+  utter_response_to_answer_a_a:
+  - text: "Convenience method"
+
+  utter_response_to_answer_a_b:
+  - text: "Quota samples"
+
+  utter_response_to_answer_a_c:
+  - text: "Judgemental samples"
+
+  utter_response_to_answer_b:
+  - text: "Type of probability method?"
+    buttons:
+    - title: "Stratified sampling"
+      payload: "Stratified sampling"
+    - title: "Simple Random sampling"
+      payload: "Simple Random sampling"
+    - title: "Cluster sampling"
+      payload: "Cluster sampling"
+
+  utter_response_to_answer_b_a:
+  - text: "Stratified sampling"
+
+  utter_response_to_answer_b_b:
+  - text: "Simple Random sampling"
+
+  utter_response_to_answer_b_c:
+  - text: "Cluster sampling"
 
 session_config:
   session_expiration_time: 600

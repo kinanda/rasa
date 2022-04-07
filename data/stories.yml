@@ -183,3 +183,63 @@ stories:
   - intent: answer_2
   - action: utter_response_to_answer_2
   - action: utter_goodbye
+
+- story: path_convenience
+  steps:
+  - intent: begin
+  - action: utter_response_to_begin
+  - intent: answer_a
+  - action: utter_response_to_answer_a
+  - intent: answer_a_a
+  - action: utter_response_to_answer_a_a
+  - action: utter_goodbye
+
+- story: path_quota
+  steps:
+  - intent: begin
+  - action: utter_response_to_begin
+  - intent: answer_a
+  - action: utter_response_to_answer_a
+  - intent: answer_a_b
+  - action: utter_response_to_answer_a_b
+  - action: utter_goodbye
+
+- story: path_judgemental
+  steps:
+  - intent: begin
+  - action: utter_response_to_begin
+  - intent: answer_a
+  - action: utter_response_to_answer_a
+  - intent: answer_a_c
+  - action: utter_response_to_answer_a_c
+  - action: utter_goodbye
+
+- story: path_stratified
+  steps:
+  - intent: begin
+  - action: utter_response_to_begin
+  - intent: answer_b
+  - action: utter_response_to_answer_b
+  - intent: answer_b_a
+  - action: utter_response_to_answer_b_a
+  - action: utter_goodbye
+
+- story: path_simple
+  steps:
+  - intent: begin
+  - action: utter_response_to_begin
+  - intent: answer_b
+  - action: utter_response_to_answer_b
+  - intent: answer_b_b
+  - action: utter_response_to_answer_b_b
+  - action: utter_goodbye
+
+- story: path_cluster
+  steps:
+  - intent: begin
+  - action: utter_response_to_begin
+  - intent: answer_b
+  - action: utter_response_to_answer_b
+  - intent: answer_b_c
+  - action: utter_response_to_answer_b_c
+  - action: utter_goodbye
