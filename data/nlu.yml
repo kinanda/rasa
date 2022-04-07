@@ -141,3 +141,65 @@ nlu:
   examples: |
     - no
     - n
+
+- intent: begin
+  examples: |
+    - begin
+    - begins
+    - began
+    - begun
+
+- intent: answer_a
+  examples: |
+    - non-probability
+    - non-probability method
+    - non-probability methods
+    - nonprobability
+    - nonprobability method
+    - nonprobability methods
+
+- intent: answer_a_a
+  examples: |
+    - convenience
+    - convenience method
+    - convenience methods
+
+- intent: answer_a_b
+  examples: |
+    - quota
+    - quota sample
+    - quota samples
+
+- intent: answer_a_c
+  examples: |
+    - judgemental
+    - judgemental sample
+    - judgemental samples
+    - judgemental sampling
+
+- intent: answer_b
+  examples: |
+    - probability
+    - probability method
+    - probability methods
+
+- intent: answer_b_a
+  examples: |
+    - stratified
+    - stratified sample
+    - stratified samples
+    - stratified sampling
+
+- intent: answer_b_b
+  examples: |
+    - simple random
+    - simple random sample
+    - simple random samples
+    - simple random sampling
+
+- intent: answer_b_c
+  examples: |
+    - cluster
+    - cluster sample
+    - cluster samples
+    - cluster sampling
